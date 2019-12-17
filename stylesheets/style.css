@@ -1,6 +1,17 @@
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	background-color: #F9F6ED;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 .red {
-	height: 100vh;
 	background: red;
+	height: 90vh;
 }
 
 .green {
@@ -16,4 +27,38 @@
 .blue {
 	height: 100vh;
 	background: blue;
+}
+
+.pink {
+	height: 100vh;
+	background: pink;
+}
+
+.header {
+	height: 10vh;
+	background-color: #F9F6ED;
+}
+
+.menu-navbar {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 15px;
+}
+
+.header {
+	display: flex;
+	align-items: center
+}
+
+
+
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+  padding: 0em 2em;
+  background-color:rgb(249, 246, 237);
 }
