@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.container {
+	overflow: hidden !important
+}
+
 
 .red {
 	
@@ -122,7 +126,7 @@ nav ul li a {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    bottom: -100px;
+    bottom: -102px;
 }
 
 .arc {
