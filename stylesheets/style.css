@@ -10,7 +10,7 @@ html {
 
 
 .red {
-	background: red;
+	
 	height: 90vh;
 }
 
@@ -65,12 +65,26 @@ nav ul li a:hover {
 }
 
 
-
-
 nav ul li a {
   color: #000000;
   text-decoration: none;
   width: 100%;
   padding: 0em 2em;
   background-color:rgb(249, 246, 237);
+}
+
+.circle-welcome {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.circle {
+  stroke-dasharray: 227;
+  stroke-dashoffset: 227;
+  transition: stroke-dashoffset 0.85s linear;
+}
+
+.circle:hover {
+  stroke-dashoffset: 0;
 }
