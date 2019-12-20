@@ -86,8 +86,6 @@ div.navbar-nav{
     text-align: right;
 }
 
-
-
 a.nav-item.nav-link{
 	color: rgba(0,0,0,.9) !important;
 }
@@ -185,3 +183,6 @@ button.navbar-toggler {
 #arrow-down img:hover {
   cursor: pointer;
 }
+
+
+
