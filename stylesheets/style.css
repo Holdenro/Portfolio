@@ -50,6 +50,10 @@ html {
   list-style-type: none;
 }
 
+ul{
+	list-style-type: none;
+}
+
 nav ul li a {
 	color: #000000;
     text-decoration: none;
@@ -225,8 +229,8 @@ button.navbar-toggler {
 
 .portrait::before {
   position: absolute;
-  top: 15%;
-  left: 9%;
+  top: 14.8%;
+  left: 8.8%;
   width: 93%;
   height: 93%;
   border: 1.5px solid rgba(0,0,0,.9);
@@ -238,4 +242,20 @@ button.navbar-toggler {
   max-width: 98%;
   height: auto;
 }
+
+.keywords{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.key-words{
+  z-index: 3;
+  font-size: 1em;
+  padding-left: 0px;
+  margin-right: 169px;
+  margin-top: 94px;
+}
+
+
 
