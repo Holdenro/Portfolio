@@ -14,13 +14,11 @@ html {
 
 
 .red {
-	
 	height: 90vh;
 }
 
 .green {
 	height: 100vh;
-	background: green;
 }
 
 .yellow {
@@ -185,4 +183,44 @@ button.navbar-toggler {
 }
 
 
+.text-presentation {
+  margin-left: 10px;
+}
 
+#name {
+  font-size: 20px;
+  margin: 0;
+  font-weight: lighter;
+}
+
+#job {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#description {
+  font-weight: lighter;
+}
+
+.portrait{
+    /*width: 838px;
+    position: relative;
+    left: 315px;
+    bottom: 170px;*/
+    z-index: 1;
+}
+
+.img-port{
+  /*width: 781px;
+  height: 423px;
+  object-fit: cover;
+  position: relative;
+  left: 20px;
+  bottom: 7px;*/
+  z-index: 2;
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
