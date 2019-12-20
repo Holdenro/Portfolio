@@ -207,6 +207,8 @@ button.navbar-toggler {
     position: relative;
     left: 315px;
     bottom: 170px;*/
+     display: inline-block;
+ 	 position: relative;
     z-index: 1;
 }
 
@@ -217,10 +219,23 @@ button.navbar-toggler {
   position: relative;
   left: 20px;
   bottom: 7px;*/
+  
   z-index: 2;
 }
 
+.portrait::before {
+  position: absolute;
+  top: 15%;
+  left: 9%;
+  width: 93%;
+  height: 93%;
+  border: 1.5px solid rgba(0,0,0,.9);
+  content: '';
+  z-index: -1
+}
+
 .img-fluid{
-  max-width: 100%;
+  max-width: 98%;
   height: auto;
 }
+
