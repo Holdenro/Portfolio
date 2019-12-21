@@ -211,8 +211,8 @@ button.navbar-toggler {
     position: relative;
     left: 315px;
     bottom: 170px;*/
-     display: inline-block;
- 	 position: relative;
+    display: inline-block;
+ 	position: relative;
     z-index: 1;
 }
 
@@ -223,7 +223,6 @@ button.navbar-toggler {
   position: relative;
   left: 20px;
   bottom: 7px;*/
-  
   z-index: 2;
 }
 
@@ -255,6 +254,21 @@ button.navbar-toggler {
   padding-left: 0px;
   margin-right: 169px;
   margin-top: 94px;
+}
+
+.greenbackground{
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+}
+
+.green-background {
+  width: 84%;
+  height: 100vh;
+  background-color: #A9F0D1;
+  bottom: 1148px;
+  left: 529px;
+  z-index: -1;
 }
 
 
