@@ -271,5 +271,28 @@ button.navbar-toggler {
   z-index: -1;
 }
 
+.block-text {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  bottom:170px;
+  left:55px;
+}
+
+#about-me {
+  font-size: 28px;
+  text-align: center;
+  margin: 0;
+  display: inline-block;
+  background-color: #A9F0D1;
+  /*margin-top: 37px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  overflow: visible;*/
+}
+
+
+
 
 
