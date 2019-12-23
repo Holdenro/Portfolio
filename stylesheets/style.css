@@ -22,8 +22,13 @@ html {
 }
 
 .yellow {
-	height: 100vh;
+	height: 60vh;
 	background: yellow;
+	margin: 0;
+}
+
+.orange {
+	height: 40vh;
 }
 
 .blue {
@@ -256,6 +261,10 @@ button.navbar-toggler {
   display: flex;
   justify-content: flex-end;
   position: absolute;
+  max-height: 100%;
+  padding-left: 64px;
+  padding-right: 0px;
+
 }
 
 .green-background {
@@ -273,6 +282,29 @@ button.navbar-toggler {
 }
 
 #about-me {
+
+}
+
+.greenbackground-03 {
+  background-color: #a9f0d1;
+  display: flex;
+  margin: 0;
+  max-height: 100%;
+    max-width: 100%;
+}
+
+.greenbackground-03 p {
+  padding: 0px 35px;
+  margin: 0;
+  font-size:2.2vh;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
 
 }
 
