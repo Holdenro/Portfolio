@@ -303,9 +303,114 @@ button.navbar-toggler {
   justify-content: center;
 }
 
+.container-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-gap:20px;
+}
 
+.grid{
+	display: flex;
+	justify-content: center
+}
 
+.container-cards {
+  position: relative;
+  top: 250px;
+}
 
+.card {
+  /*border: 1px solid black;*/
+  background: #F9F6ED;
+  height: 300px;
+  display: inline-block;
+  margin: 20px;
+  z-index: 1;
+  position: relative;
+}
+
+.card-date p{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: absolute;
+  padding-top: 10px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.card-title {
+  position: relative;
+  top: 140px;
+  z-index: 0;
+}
+
+.card-title p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  z-index: 0;
+  text-transform: capitalize;
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.card-stack {
+  color: black;
+  position: relative;
+  top: 210px;
+  margin-right: 15px;
+  color: white;
+}
+
+.card-stack p{
+  font-size: 15px;
+  text-align: right;
+  margin: auto;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.img-project{
+  object-fit: cover;
+  height: 297px;
+  width: 325px;
+  bottom: 78px;
+  position: relative;
+  z-index: -1;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.card:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text-overlay {
+  width: 80%;
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 
