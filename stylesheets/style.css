@@ -254,6 +254,7 @@ button.navbar-toggler {
   display: flex;
   justify-content: center;
   position: absolute;
+  z-index: 3;
 }
 
 .key-words{
@@ -316,11 +317,11 @@ button.navbar-toggler {
   grid-gap:20px;
 }
 
-.grid{
+/*.grid{
   height: 60vh;
   display: flex;
   align-items: center;
-}
+}*/
 
 .container-cards {
   position: relative;
