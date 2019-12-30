@@ -29,7 +29,7 @@ html {
 }
 
 .orange {
-	height: 40vh;
+	
 }
 
 .blue {
@@ -38,7 +38,7 @@ html {
 }
 
 .pink {
-	height: 90vh;
+  margin-top:8%;
 }
 
 .header {
@@ -305,7 +305,7 @@ button.navbar-toggler {
 }
 
 .greenbackground-03 p {
-  padding: 0px 35px;
+  padding: 35px 35px;
   margin: 0;
   font-size:2.5vh;
   font-weight: lighter;
@@ -321,8 +321,8 @@ button.navbar-toggler {
 }
 
 .grid{
-  height: 60vh;
-  display: inline;
+  text-align: center;
+  margin-top: 2%
 }
 
 .grid::before{
@@ -450,10 +450,6 @@ button.navbar-toggler {
   object-fit: cover;
   height: 480px;
   width: auto;
-}
-
-#resume{
-  position: relative;
 }
 
 .overlay-resume {
@@ -599,8 +595,9 @@ button.navbar-toggler {
 }
 
 .footer {
-	height: 20vh;
+	height: 15vh;
 	background-color: #F9F6ED;
+  overflow: hidden;
 }
 
 .arc-footer {
