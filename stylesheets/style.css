@@ -113,9 +113,9 @@ button.navbar-toggler {
 }
 
 .circle {
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-  animation: stroke 20s ease-out forwards;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: stroke 13.0s ease-out forwards;
 }
 
 @keyframes stroke {
