@@ -132,7 +132,8 @@ button.navbar-toggler {
 
 
 
-.circle:hover {
+#circle:hover {
+  background-color: #A9F0D1;
   stroke-dashoffset: 0;
 }
 
