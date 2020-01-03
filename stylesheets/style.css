@@ -113,12 +113,27 @@ button.navbar-toggler {
 }
 
 .circle {
-  stroke-dasharray: 227;
-  stroke-dashoffset: 227;
-  transition: stroke-dashoffset 0.85s linear;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: stroke 13.0s ease-out forwards;
 }
 
-.circle:hover {
+@keyframes stroke {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+#circle:hover {
+  background-color: #A9F0D1;
   stroke-dashoffset: 0;
 }
 
